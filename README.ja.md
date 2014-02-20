@@ -19,7 +19,7 @@
 
 *バイオインフォマティクスのためのスモールツール*  はひとつの救済策であり、ビッグデータに適した解決策をひとつに集めこれらのツールを相互作用させる方法を作り出すための先進的な中央での取り組みである。
 
-以下に述べる単純な規約が *バイオインフォマティクスのためのスモールツール*  に署名する者すべてに適用される：
+以下に述べるシンプルな規約が *バイオインフォマティクスのためのスモールツール*  に署名する者すべてに適用される：
 
 * すべての各々のツールは、可能な限り小さいタスクを本当に上手に行うべきである。
 
@@ -31,56 +31,40 @@
 
 * エラー条件と例外は記述されたものであり、明確な方法で扱うことができるべきである。
   
-* 可能ならばツールは（Unixの）パイプをサポートすべきである。
+* 可能ならば、ツールは（Unixの）パイプをサポートすべきである。
 
-* 可能ならばツールは使いやすいコマンドラインインターフェースを提供すべきである。
+* 可能ならば、ツールは使いやすいコマンドラインインターフェースを提供すべきである。
 
+＊ツールは名前付き（絶対）ファイルパスのようなシステム依存性を避けるべきである
 
+* すべての各々のツールは少なくともLinuxのためのシンプルなビルド手順とともに入手できなければならない
 
+* ソフトウェアのインストールとデプロイメントのための依存性は外部のパッケージ管理システムを通して扱われる。
 
+以下は推奨されるものである。
 
+* GitHubおよび同等なものをソースコードのホスティングに使用する。
 
+* Travisおよび同等なものを自動化テストに使用する。
 
-* Tools should avoid system dependencies, such as named (absolute) file paths
+* GNUパッケージシステム（GUIX）のためのパッケージ定義を提供する。
 
-* Every single tool comes with a simple build protocol, at least for Linux
+* この **宣言** の基準に合致するすべてのツールは、世界中で標準的なバイオインフォマティクスパイプラインの一部になる。
 
-* Software installation and deployment dependencies are handled through 
-    external package management systems
-
-The following are recommendations 
-
-* Use github or similar for hosting source code
-
-* Use travis or similar for automatic testing
-
-* Provide a package definition for the GNU package system (GUIX)
-
-* All tools that match the criteria of the **MANIFESTO** will be part of
-    standard bioinformatics pipelines across the world
-
-This **MANIFESTO** *Small tools for bioinformatics* is signed by 
+このバイオインフォマティクスのためのスモールツール **宣言** は以下の者によって署名されている。
 
 1. [Pjotr Prins](http://thebird.nl/)
 2. [Raoul Bonnal](https://github.com/helios)
 3. [Francesco Strozzi](https://github.com/fstrozzi)
 4. [Artem Tarasov](https://github.com/lomereiter)
 
-Please clone, copy, BLOG this document. The original can be found at 
-https://github.com/pjotrp/bioinformatics
+どうぞこの文書をクローンし、コピーし、ブログに載せて下さい。オリジナルは https://github.com/pjotrp/bioinformatics で見つけることができます。
 
-NOTES
+注釈：
+現時点ではバイオインフォマティクスはシークエンシングの大当たりで繁栄している。異論のあるところではあるが、現状のソフトウェア工学での取り組みはビッグデータの要求に真に適合するものではないために、バイオインフォマティクスは機器に直面している。それほど昔でないころから、プログラマーはPerl、Python、RあるいはCといった（小さい）ツールに特化して書くことでなんとかしのいできた。今日、バイオインフォマティクスソフトウエア工学は、マルチコアプログラミング、入出力ボトルネック、RAMの制限、そしてわがままなユーザーを扱わなければならない。全体的な課題は、ひとりの孤立した学生が次の大きな全機能含むソフトウェアを書こうするような仕事としては大きすぎるものになってきている。われわれは、生物学、統計学、ソフトウェア開発、そしてシステム管理の背景をもつ研究者をまきこんだ共同作業による取り組みにますます依存するようになっている。これは、
 
-At this point bioinformatics is thriving because of the sequencing bonanza.
-Arguably, bioinformatics is in a crisis because existing software engineering
-efforts are not really matching the requirements of big data. Not so long ago,
-programmers got by writing specialised (small) tools in Perl, Python, R or C.
-Today, bioinformatics software engineering has to deal multi-core programming,
-with IO bottlenecks, RAM constraints, and demanding users. The overall
-challenge has become too large a job for the isolated student trying to
-write the next great all-inclusive software solution. We are increasingly
-depending on collaborative efforts involving researchers with a background in
-biology, statistics, software development and system administration. This is
+
+This is
 where the **MANIFESTO** kicks in - by encouraging researchers and students to come out
 of isolation and write small tools that can be bolted together with other
 tools.
@@ -103,4 +87,7 @@ recommendations are applicable. By making software solutions self contained and
 modular they become pluggable and can be easily replaced by a new generation of
 tools. Software is software. Software should be easy to change, replace and
 improve. The **MANIFESTO** champions that philosophy.
+
+訳注：
+@mishimahryk による試訳です。翻訳版は https://github.com/misshie/bioinformatics で見つけることができます。
 
