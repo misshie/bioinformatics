@@ -5,14 +5,7 @@
 研究における大規模なデータ取得は以下の課題をもたらした。すなわち、
 (1) 計算における規模の拡大 (2) データ全体の統合 (3) データ操作と可視化である。われわれは、「ボタンを押すだけ」のような解決策へ向かう研究者たちのせいで、研究者コミュニティーが、「巨人の方に乗り」、モジュール化され、柔軟でオープンな方法でソフトウェアを構築する重要性に対する視点を失いつつあると考える。
 
-この **宣言** は、研究所や企業がエンドユーザーを対象とした一枚岩的なソフトウェアを作成しているような現在のバイオインフォマティクスにおける潮流に反対するものである。この **宣言**は、各々の部分が簡単に交換できるような効率的なコンピュータ上の解決法を作るために、モジュール化され連結可能な方法で使える小規模ツールを試してきたUnixコンピュータの伝統に基づく。この宣言はまた、真に「自由ソフトウェアおよびオープンソースソフトウェア（FOSS）」ではないソフトウエアライセンス供与の現在の潮流に反対するものである。われわれはこのような **宣言** が
-
-  The
-manifesto also counters current trends in software licensing which are not
-truly free and open source (FOSS). We think such a **MANIFESTO** is necessary,
-even if history shows that software created with true FOSS licenses will
-ultimately prevail over less open licenses, including those licenses for
-academic use only.
+この **宣言** は、研究所や企業がエンドユーザーを対象とした一枚岩的なソフトウェアを作成しているような現在のバイオインフォマティクスにおける潮流に反対するものである。この **宣言**は、各々の部分が簡単に交換できるような効率的なコンピュータ上の解決法を作るために、モジュール化され連結可能な方法で使える小規模ツールを試してきたUnixコンピュータの伝統に基づく。この宣言はまた、真に「自由ソフトウェアおよびオープンソースソフトウェア（FOSS）」ではないソフトウエアライセンス供与の現在の潮流に反対するものである。たとえ真にFOSSであるライセンスによって作成されたソフトウェアが、学術用途に限るものも含んだオープン性が低いライセンスに最終的に打ち勝つことを歴史が示したとしても、われわれはこのような **宣言** が必要であると考える。
 
 *Small tools for bioinformatics* consists of researchers, software developers,
 statisticians and system administrators who work on biological and biomedical
