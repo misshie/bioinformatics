@@ -61,20 +61,15 @@
 どうぞこの文書をクローンし、コピーし、ブログに載せて下さい。オリジナルは https://github.com/pjotrp/bioinformatics で見つけることができます。
 
 注釈：
+
 現時点ではバイオインフォマティクスはシークエンシングの大当たりで繁栄している。異論のあるところではあるが、現状のソフトウェア工学での取り組みはビッグデータの要求に真に適合するものではないために、バイオインフォマティクスは機器に直面している。それほど昔でないころから、プログラマーはPerl、Python、RあるいはCといった（小さい）ツールに特化して書くことでなんとかしのいできた。今日、バイオインフォマティクスソフトウエア工学は、マルチコアプログラミング、入出力ボトルネック、RAMの制限、そしてわがままなユーザーを扱わなければならない。全体的な課題は、ひとりの孤立した学生が次の大きな全機能含むソフトウェアを書こうするような仕事としては大きすぎるものになってきている。われわれは、生物学、統計学、ソフトウェア開発、そしてシステム管理の背景をもつ研究者をまきこんだ共同作業による取り組みにますます依存するようになっている。これがこの **宣言**が研究者と学生に孤立から抜け出て他のツールと互いに結合できるようなスモールツールを書くように奨励することで始まった理由である。
 
 また、バイオインフォマテクスパイプラインには良いワークフロー制御のための解決策が欠けており、一方のSun Grid Engineのような一般的なクラスター制御ソフトウェアと、もう一方のGalaxyのようなユーザー中心のワークフロー解決策の間にギャップがある。このギャップは世界中のシークエンシングセンターが、彼ら独自に記述したしばしば脆いパイプラインを作成することと、それによって「車輪の再発明」とそこそこ最適化された維持が難しいワークフローによる解決策に終わることをもたらしている。この **宣言**  はパイプラインのためのソフトウェアを書く手法を変え、そのようなバイオインフォマテクスソフトウェアパイプラインを、シンプルで柔軟で「脆さに抵抗」できより管理しやすいものにするための共同作業による取り組みをよびかけるものである。
 
-この 
-
-The **MANIFESTO** accentuates command line tools with a clear input/output stream
-supporting (Unix) pipes, which make the components of a (sequencing) pipeline.
-Also for web based tools and GUI programs, most of above rules and
-recommendations are applicable. By making software solutions self contained and
-modular they become pluggable and can be easily replaced by a new generation of
-tools. Software is software. Software should be easy to change, replace and
-improve. The **MANIFESTO** champions that philosophy.
+この **宣言** は、（Unixの）パイプをサポートする明確な入出力ストリーム
+を持つコマンドラインツールについて強調する。これは（シークエンシング）パイプラインの構成要素を作るものである。また、ウェブベースツールやGUIプログラムにもまた、ほとんどの前述の規約と推奨が適用できる。ソフトウェアによる解決策が、必要なものがすべて揃い、モジュール性があるものにすることで、それらは連結可能になり、容易に新世代のツールでおきかえることができるようになる。ソフトウェアはソフトウェアである。ソフトウェアは変更しやすく、置き換えやすく、改良しやすいものであるべきである。この *宣言* はその思想を擁護するものである。
 
 訳注：
+
 @mishimahryk による試訳です。翻訳版は https://github.com/misshie/bioinformatics で見つけることができます。
 
