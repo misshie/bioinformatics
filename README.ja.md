@@ -1,47 +1,45 @@
-## バイオインフォマティクスのための小規模ツール**宣言**
+## バイオインフォマティクスのためのスモールツール**宣言**
 
 この **宣言** は、現在の生物学的および生命医学的研究のためのソフトウェアとパイプラインを設計するにあたっての目的、規約、そして推奨されることについて述べるものである。
 
 研究における大規模なデータ取得は次の様な課題をもたらした。すなわち、
 (1) 計算における規模の拡大 (2) データ全体の統合 (3) データ操作と可視化である。われわれは、「ボタンを押すだけ」のような解決策へ向かう研究者たちのために、「巨人の方に乗り」、モジュール化され、柔軟でオープンな方法でソフトウェアを構築する重要性に対する視点を研究者コミュニティーが失いつつあると考える。
 
-この **宣言** は、研究所や企業がエンドユーザーを対象とした一枚岩的なソフトウェアを作成しているような現在のバイオインフォマティクスにおける潮流に反対するものである。この **宣言**は、各々の部分が簡単に交換できるような効率的なコンピュータ上の解決法を作るために、モジュール化され連結可能な方法で使える小規模ツールを試してきたUnixコンピュータの伝統に基づく。この宣言はまた、真に「自由ソフトウェアおよびオープンソースソフトウェア（FOSS）」ではないソフトウエアライセンス供与の現在の潮流に反対するものである。たとえ真にFOSSであるライセンスによって作成されたソフトウェアが、学術用途に限るものも含んだオープン性が低いライセンスに最終的に打ち勝つことを歴史が示したとしても、われわれはこのような **宣言** が必要であると考える。
+この **宣言** は、研究所や企業がエンドユーザーを対象とした一枚岩的なソフトウェアを作成しているような現在のバイオインフォマティクスにおける潮流に反対するものである。この **宣言**は、各々の部分が簡単に交換できるような効率的なコンピュータ上の解決法を作るために、モジュール化され連結可能な方法で使えるスモールツールを試してきたUnixコンピュータの伝統に基づく。この宣言はまた、真に「自由ソフトウェアおよびオープンソースソフトウェア（FOSS）」ではないソフトウエアライセンス供与の現在の潮流に反対するものである。たとえ真にFOSSであるライセンスによって作成されたソフトウェアが、学術用途に限るものも含んだオープン性が低いライセンスに最終的に打ち勝つことを歴史が示したとしても、われわれはこのような **宣言** が必要であると考える。
 
-*バイオインフォマティクスのための小規模ツール* は、生物学および生命医学データに携わる研究者、ソフトウェア開発者、統計学者およびシステム管理者より構成される。
+*バイオインフォマティクスのためのスモールツール* は、生物学および生命医学データに携わる研究者、ソフトウェア開発者、統計学者およびシステム管理者より構成される。
 
-*バイオインフォマティクスのための小規模ツール* は、研究プロジェクト間での「車輪の再発明」や、たとえば、シークエンシングパイプラインにおける繰り返すことのできるような記述された解決策の欠如について憂慮している。
+*バイオインフォマティクスのためのスモールツール* は、研究プロジェクト間での「車輪の再発明」や、たとえば、シークエンシングパイプラインにおける再現できるような記述された解決策の欠如について憂慮している。
 
-*バイオインフォマティクスのための小規模ツール* は、Unixの伝統の中における小規模な共同作業ツールとソフトウェアによる解決策に関するものである。
+*バイオインフォマティクスのためのスモールツール* は、Unixの伝統の中における小規模な共同作業ツールとソフトウェアによる解決策に関するものである。
 
-*バイオインフォマティクスのための小規模ツール* は、creates free and open source software, shares
-software solutions, and encourages transparency and reproducibility of results.
+*バイオインフォマティクスのためのスモールツール* は、自由ソフトウェアおよびオープンソースソフトウェアを作り、ソフトウェアによる解決策を共有し、結果の再現性と透明性を奨励する。
 
-*Small tools for bioinformatics* allows the building of modular solutions where
-individual tools can easily be understood, tested and replaced.
+*バイオインフォマティクスのためのスモールツール* は各々のツールが容易に理解でき、テストでき、交換できるようなモジュール化された解決策の構築を同意する。
 
-*Small tools for bioinformatics* is a rescue plan and forward looking central
-effort to bring together solutions suitable for big data analysis and create
-ways of having these tools interact with each other.
+*バイオインフォマティクスのためのスモールツール*  はひとつの救済策であり、ビッグデータに適した解決策をひとつに集めこれらのツールを相互作用させる方法を作り出すための先進的な中央での取り組みである。
 
-The following simple rules apply to anyone signing up to *Small tools for
-bioinformatics*
+以下に述べる単純な規約が *バイオインフォマティクスのためのスモールツール*  に署名する者すべてに適用される：
 
-* Every single tool should do the smallest possible task really well
+* すべての各々のツールは、可能な限り小さいタスクを本当に上手に行うべきである。
 
-* Every single tool lives in its own public source code repository
+* すべての各々のツールは、それらのための公共のソースコードレポジトリに存在する。
 
-* All tools are free and open source software (FOSS) and come with a license
-    approved by the Free Software Foundation (FSF).
+* すべてのツールは自由ソフトウェアおよびオープンソースソフトウェア（FOSS）であり、自由ソフトウェア財団 Free Software Foundation (FSF)により承認されたライセンスに基づく。
 
-* Source code should be easy to read and understand for a competent software
-    developer
+* ソースコードは、有能な開発者にとって読みやすく理解しやすいものであるべきである。 
+
+* エラー条件と例外は記述されたものであり、明確な方法で扱うことができるべきである。
   
-* Error conditions and exceptions should be descriptive and handled in 
-    a clear way
+* 可能ならばツールは（Unixの）パイプをサポートすべきである。
 
-* When possible tools should support (Unix) pipes
+* 可能ならばツールは使いやすいコマンドラインインターフェースを提供すべきである。
 
-* When possible tools provide a useful command line interface 
+
+
+
+
+
 
 * Tools should avoid system dependencies, such as named (absolute) file paths
 
