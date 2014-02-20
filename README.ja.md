@@ -2,23 +2,18 @@
 
 この **宣言** は、現在の生物学的および生命医学的研究のためのソフトウェアとパイプラインを設計するにあたっての目的、規約、そして推奨されることについて述べるものである。
 
-研究における大規模なデータ取得は以下の課題をもたらした。すなわち、
-(1) 計算における規模の拡大 (2) データ全体の統合 (3) データ操作と可視化である。われわれは、「ボタンを押すだけ」のような解決策へ向かう研究者たちのせいで、研究者コミュニティーが、「巨人の方に乗り」、モジュール化され、柔軟でオープンな方法でソフトウェアを構築する重要性に対する視点を失いつつあると考える。
+研究における大規模なデータ取得は次の様な課題をもたらした。すなわち、
+(1) 計算における規模の拡大 (2) データ全体の統合 (3) データ操作と可視化である。われわれは、「ボタンを押すだけ」のような解決策へ向かう研究者たちのために、「巨人の方に乗り」、モジュール化され、柔軟でオープンな方法でソフトウェアを構築する重要性に対する視点を研究者コミュニティーが失いつつあると考える。
 
 この **宣言** は、研究所や企業がエンドユーザーを対象とした一枚岩的なソフトウェアを作成しているような現在のバイオインフォマティクスにおける潮流に反対するものである。この **宣言**は、各々の部分が簡単に交換できるような効率的なコンピュータ上の解決法を作るために、モジュール化され連結可能な方法で使える小規模ツールを試してきたUnixコンピュータの伝統に基づく。この宣言はまた、真に「自由ソフトウェアおよびオープンソースソフトウェア（FOSS）」ではないソフトウエアライセンス供与の現在の潮流に反対するものである。たとえ真にFOSSであるライセンスによって作成されたソフトウェアが、学術用途に限るものも含んだオープン性が低いライセンスに最終的に打ち勝つことを歴史が示したとしても、われわれはこのような **宣言** が必要であると考える。
 
-*Small tools for bioinformatics* consists of researchers, software developers,
-statisticians and system administrators who work on biological and biomedical
-data
+*バイオインフォマティクスのための小規模ツール* は、生物学および生命医学データに携わる研究者、ソフトウェア開発者、統計学者およびシステム管理者より構成される。
 
-*Small tools for bioinformatics* is concerned about the reinvention of the
-wheel across research projects and, for example, the lack of reproducible 
-scripted solutions in sequencing pipelines.
+*バイオインフォマティクスのための小規模ツール* は、研究プロジェクト間での「車輪の再発明」や、たとえば、シークエンシングパイプラインにおける繰り返すことのできるような記述された解決策の欠如について憂慮している。
 
-*Small tools for bioinformatics* is about small collaborating tools and
-software solutions in the Unix tradition.
+*バイオインフォマティクスのための小規模ツール* は、Unixの伝統の中における小規模な共同作業ツールとソフトウェアによる解決策に関するものである。
 
-*Small tools for bioinformatics* creates free and open source software, shares
+*バイオインフォマティクスのための小規模ツール* は、creates free and open source software, shares
 software solutions, and encourages transparency and reproducibility of results.
 
 *Small tools for bioinformatics* allows the building of modular solutions where
