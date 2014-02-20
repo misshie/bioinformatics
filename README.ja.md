@@ -1,18 +1,11 @@
 ## バイオインフォマティクスのためのスモールツール**宣言**
 
-This **MANIFESTO** describes motives, rules and recommendations for designing
-software and pipelines for current day biological and biomedical research.
+この **宣言** は、現在の生物学的および生命医学的研究のためのソフトウェアとパイプラインを設計するにあたっての目的、規約、そして推奨されることについて述べるものである。
 
-Large scale data acquisition in research has led to fundamental challenges in
-(1) scaling of calculations, (2) full data integration and (3) data interaction
-and visualisation. We think that, because of researchers reaching out to
-turn-key solutions, the research community is losing sight of the importance of building
-software on the shoulders of giants and providing solutions in a modular,
-flexible and open way.
+研究における大規模なデータ取得は以下の課題をもたらした。すなわち、
+(1) 計算における規模の拡大 (2) データ全体の統合 (3) データ操作と可視化である。われわれは、「ボタンを押すだけ」のような解決策へ向かう研究者たちのせいで、研究者コミュニティーが、「巨人の方に乗り」、モジュール化され、柔軟でオープンな方法でソフトウェアを構築する重要性に対する視点を失いつつあると考える。
 
-This **MANIFESTO** counters current trends in bioinformatics where institutes and
-companies are creating monolithic software solutions aimed mostly at end-users.
-This **MANIFESTO** builds on the Unix computer tradition of providing small tools
+この **宣言** は、研究所や企業がエンドユーザーを対象とした一枚岩的なソフトウェアを作成しているような現在のバイオインフォマティクスにおける潮流に反対するものである。 This **MANIFESTO** builds on the Unix computer tradition of providing small tools
 that can be used in a modular and pluggable way to create efficient
 computational solutions where individual parts can be easily replaced.  The
 manifesto also counters current trends in software licensing which are not
