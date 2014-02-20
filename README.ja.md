@@ -35,7 +35,7 @@
 
 * 可能ならば、ツールは使いやすいコマンドラインインターフェースを提供すべきである。
 
-＊ツールは名前付き（絶対）ファイルパスのようなシステム依存性を避けるべきである
+* ツールは名前付き（絶対）ファイルパスのようなシステム依存性を避けるべきである
 
 * すべての各々のツールは少なくともLinuxのためのシンプルなビルド手順とともに入手できなければならない
 
@@ -61,24 +61,11 @@
 どうぞこの文書をクローンし、コピーし、ブログに載せて下さい。オリジナルは https://github.com/pjotrp/bioinformatics で見つけることができます。
 
 注釈：
-現時点ではバイオインフォマティクスはシークエンシングの大当たりで繁栄している。異論のあるところではあるが、現状のソフトウェア工学での取り組みはビッグデータの要求に真に適合するものではないために、バイオインフォマティクスは機器に直面している。それほど昔でないころから、プログラマーはPerl、Python、RあるいはCといった（小さい）ツールに特化して書くことでなんとかしのいできた。今日、バイオインフォマティクスソフトウエア工学は、マルチコアプログラミング、入出力ボトルネック、RAMの制限、そしてわがままなユーザーを扱わなければならない。全体的な課題は、ひとりの孤立した学生が次の大きな全機能含むソフトウェアを書こうするような仕事としては大きすぎるものになってきている。われわれは、生物学、統計学、ソフトウェア開発、そしてシステム管理の背景をもつ研究者をまきこんだ共同作業による取り組みにますます依存するようになっている。これは、
+現時点ではバイオインフォマティクスはシークエンシングの大当たりで繁栄している。異論のあるところではあるが、現状のソフトウェア工学での取り組みはビッグデータの要求に真に適合するものではないために、バイオインフォマティクスは機器に直面している。それほど昔でないころから、プログラマーはPerl、Python、RあるいはCといった（小さい）ツールに特化して書くことでなんとかしのいできた。今日、バイオインフォマティクスソフトウエア工学は、マルチコアプログラミング、入出力ボトルネック、RAMの制限、そしてわがままなユーザーを扱わなければならない。全体的な課題は、ひとりの孤立した学生が次の大きな全機能含むソフトウェアを書こうするような仕事としては大きすぎるものになってきている。われわれは、生物学、統計学、ソフトウェア開発、そしてシステム管理の背景をもつ研究者をまきこんだ共同作業による取り組みにますます依存するようになっている。これがこの **宣言**が研究者と学生に孤立から抜け出て他のツールと互いに結合できるようなスモールツールを書くように奨励することで始まった理由である。
 
+また、バイオインフォマテクスパイプラインには良いワークフロー制御のための解決策が欠けており、一方のSun Grid Engineのような一般的なクラスター制御ソフトウェアと、もう一方のGalaxyのようなユーザー中心のワークフロー解決策の間にギャップがある。このギャップは世界中のシークエンシングセンターが、彼ら独自に記述したしばしば脆いパイプラインを作成することと、それによって「車輪の再発明」とそこそこ最適化された維持が難しいワークフローによる解決策に終わることをもたらしている。この **宣言**  はパイプラインのためのソフトウェアを書く手法を変え、そのようなバイオインフォマテクスソフトウェアパイプラインを、シンプルで柔軟で「脆さに抵抗」できより管理しやすいものにするための共同作業による取り組みをよびかけるものである。
 
-This is
-where the **MANIFESTO** kicks in - by encouraging researchers and students to come out
-of isolation and write small tools that can be bolted together with other
-tools.
-
-Also, there is a lack of good work flow management solutions in bioinformatics
-pipelines, a gap that sits somewhere between generic cluster management
-software, such as Sun Grid Engine, on the one end, and user oriented work flow
-solutions, such as Galaxy, on the other.  This gap has led to sequencing
-centres around the world creating their own scripted and often fragile
-pipelines, thereby reinventing the wheel and ending with a semi-optimal and
-hard to maintain work flow solution. This  **MANIFESTO** calls for a collaborative
-effort in changing the way we write software for pipelines and making
-such bioinformatics software pipelines simpler, flexible,
-'antifragile' and more manageable.
+この 
 
 The **MANIFESTO** accentuates command line tools with a clear input/output stream
 supporting (Unix) pipes, which make the components of a (sequencing) pipeline.
