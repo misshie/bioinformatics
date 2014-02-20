@@ -1,4 +1,4 @@
-## THE SMALL TOOLS **MANIFESTO** FOR BIOINFORMATICS
+## バイオインフォマティクスのためのスモールツール**宣言**
 
 This **MANIFESTO** describes motives, rules and recommendations for designing
 software and pipelines for current day biological and biomedical research.
